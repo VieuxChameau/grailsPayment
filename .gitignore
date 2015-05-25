@@ -1,3 +1,28 @@
+#general swap/backup files
+*.so
+*.log
+*.out
+*~
+*.swp
+*.DS_Store
+*.lock
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Gradle files
+.gradle/
+build/
+gradle/wrapper
+gradlew
+gradlew.bat
+
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
 # .gitignore for Grails 1.2 and 1.3
 # Although this should work for most versions of grails, it is
 # suggested that you use the "grails integrate-with --git" command
